@@ -10,5 +10,3 @@ print " " * (number - counter), " 0 " * counter, "/n"
 #print "#{" " * (number - counter)}#{'0' * counter}"
 counter += 1
 end
-
-puts x

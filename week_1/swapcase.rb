@@ -1,8 +1,8 @@
-puts "Type Here"
-x = gets.chomp.swapcase
+puts "Type in Phrase"
 
-x.each_char do
-  |x| puts x
+words = gets.chomp.swapcase
+
+
+words.each_char do |x|
+  puts x
 end
-
-# puts str.swapcase.split(//)

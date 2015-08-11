@@ -1,23 +1,17 @@
 puts "Enter Phrase"
-text = gets.chomp.downcase
+words = gets.chomp.downcase
+letters = words.each_char
 
-letters = text.split(//)
-
-occurances = Hash.new(0)
+freq = Hash.new(0)
 
 letters.each do |x|
-    occurances[x] += 1
+  freq[x] += 1
+
 end
 
-x = occurances.max_by do |k, v|
-  v
+x = freq.sort_by do
+  |k, v| v
+
+  print v
+
 end
-
-puts x
-
-#comments comments ßadsfdakjshfkdhfasdf
-puts kdkdk
-
-# puts lol
-
-#max_by arranges key in terms of letter a = 1  z =
