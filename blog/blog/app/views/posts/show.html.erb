@@ -1,0 +1,68 @@
+<div class="container">
+  <article>
+  <h2><%= @post.title %></h2>
+      <p><%= @post.body %></p>
+  <p><b>Created On:</b> <%= formatted_date(@post.created_at) %> <b>By: </b> <%= @post.user.first_name %>
+  </p>
+  </article>
+</div>
+
+<div class="container tags">
+  <p><b>Tags: </b><% @post.tags.map do |x| %>
+    <%= x.name %>
+    <% end %></p>
+</div>
+
+<div class="container button-group">
+  <%= link_to "Back", posts_path, class:"btn btn-primary btn-xs"%>
+  <%= link_to "Edit", edit_post_path, class: "btn btn-warning btn-xs"%>
+  <%= link_to "Delete", post_path(@post), class: "btn btn-danger btn-xs", method: :delete, data: {confirm: "Are you sure?"}%>
+
+  <div class='container likes favorites'>
+  <% if user_signed_in? %>
+    <% if current_user.liked_post?(@post) %>
+      <%= link_to fa_icon("thumbs-up"), post_like_path(@post, @post.like_for(current_user)), class: "big-icon", title:"Un-Like", method: :delete %>
+    <% else %>
+      <%= link_to fa_icon("thumbs-o-up"), post_likes_path(@post), class: "big-icon", method: :post %>
+    <% end %>
+  <% end %>
+  <%= @post.likes.count %>
+
+  <% if user_signed_in? %> <%#= if signed in, then  %>
+    <% if current_user.favorited_post?(@post) %> <%#= if liked %>
+      <%= link_to fa_icon("heart"), post_favorite_path(@post, @post.favorite_for(current_user)), class: "big-icon", title:"Un-Fav", method: :delete  %>
+      <% else %>
+      <%= link_to fa_icon('heart-o'), post_favorites_path(@post), class: "big-icon", method: :post %>
+      <% end %>
+    <% end %>
+    <%= @post.favorites.count %>
+</div>
+</div>
+
+<div class="container comment-group">
+
+  <h5>New Comments</h5>
+  <%= form_for [@post, @comment] do |f| %>
+  <div class="form-group">
+    <%= f.text_area :body, class: "form-control"%>
+  </div>
+  <div class="form-group">
+    <%= f.submit class:"btn btn-primary btn-xs"  %>
+    <% end %>
+  </div>
+</div>
+
+<div class="container comments">
+  <h5>Comments</h5>
+    <% @post.comments.each do |com| %>
+    <div class="well">
+      <p><%= com.body %></p>
+      <p><b>Created:</b> <%= formatted_date(com.created_at) %>
+        <b>By: </b><%= com.user.first_name %>
+      <%= link_to "Edit", edit_post_comment_path(@post, com), class: "btn btn-warning btn-xs" %>
+      <%= link_to "Delete", post_comment_path(@post, com), class: "btn btn-danger btn-xs", method: :delete %></p>
+    </div>
+  <% end %>
+</div>
+</div>
+</div>
