@@ -1,19 +1,11 @@
 <div class="container">
-  <%= form_for @post do |f| %>
-  <div class="form-group">
-    <%= f.label :title %>
-    <%= f.text_field :title, class: "form-control"%>
-  </div>
-  <div class="form-group">
-    <%= f.label :body %>
-    <%= f.text_area :body, class: "form-control"%>
-  </div>
-  <div class="form-group">
-    <%= f.label :category_id %>
-  </div>
-  <div class="form-group">
-    <%= f.collection_check_boxes :tag_ids, Tag.all, :id, :name %>
-  </div>
+  <%= simple_form_for (@post|| Question.new) do |f| %>
+    <%= f.input :title, as: :string %>
+    <%= f.input :body, hint: "Can't be Empty", input_html: {placeholder: "Give more details Here"}%>
+    <%= f.input :image %>
+    <%= f.association :category, include_blank: false %>
+    <%= f.association :tags, as: :check_boxes %>
+    <!-- <%= f.button :submit, class:"btn btn-primary btn-xs" %>  -->
   <div class="form-group">
     <%= f.submit class:"btn btn-primary btn-xs"  %>
     <% end %>

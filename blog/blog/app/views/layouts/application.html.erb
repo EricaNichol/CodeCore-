@@ -7,8 +7,32 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render "/layouts/nav" %>
-<%= yield %>
 
+  <div class="contents">
+    <%= yield %>
+  </div>
+
+  <div class="navbar-default">
+    <%= render "layouts/nav" %>
+  </div>
+
+  <footer class="footer">
+    <div class ="bottom-navbar">
+      <%= render "layouts/nav_footer" %>
+    </div>
+  </footer>
 </body>
+
+<script type="text/javascript">
+$('#sign_out').appendTo("body")
+$('#sign_in').appendTo("body")
+window.addEventListener("scroll", function() {
+    if (window.scrollY > 500) {
+        $('.navbar-default').fadeOut();
+    }
+    else {
+        $('.navbar-default').fadeIn();
+    }
+},false);
+</script>
 </html>

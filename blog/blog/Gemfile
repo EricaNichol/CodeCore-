@@ -1,7 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'cancancan'
+group :development do
+  gem "letter_opener"
+end
 
+gem 'fog'
+gem 'mini_magick'
+gem 'carrierwave'
+gem "delayed_job_web"
+gem 'delayed_job_active_record'
+gem 'animate-rails'
+gem 'friendly_id'
+gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'rails-erd'
 gem 'rails_12factor', group: :production
@@ -11,6 +21,7 @@ gem 'bootstrap-sass'
 gem 'interactive_editor'
 gem 'awesome_print'
 gem 'hirb'
+gem "quiet_assets"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'

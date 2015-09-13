@@ -1,8 +1,29 @@
-<div class="container">
-<div class="jumbotron">
-  <h2>My </> Blog</h2>
-  <p> A little about my self...my experience as a noob...
-  my journey to becoming a great developer</p>
+<%= render "carousel" %>
+
+<div class="blog">
+<h2>MY BLOG</h2>
+  <p> A little about my self...my experience as a noob...my journey to becoming a great developer</p>
   <%= link_to "About Me", abouts_path, class:'btn btn-primary btn-m'%>
 </div>
+
+<div class="about">
+
+  <div class="about summary">
+    <div class="about summary text">
+      <h3>ABOUT ME</h3>
+    </div>
+  </div>
+
+  <div class="about resume">
+    <div class="about resume text">
+      <h3>RESUME</h3>
+    </div>
+  </div>
+
+  <div class="about project">
+    <div class="about project text">
+      <h3>PROJECT</h3>
+    </div>
+  </div>
+
 </div>

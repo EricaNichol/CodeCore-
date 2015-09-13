@@ -3,6 +3,9 @@ class Post < ActiveRecord::Base
   belongs_to :user
   belongs_to :category
 
+  #has_many :votes, dependent: :destroy
+  #has_many :voters, through: :votes, resource: :user
+
   has_many :comments, dependent: :nullify
 
   has_many :likes, dependent: :destroy
@@ -17,12 +20,25 @@ class Post < ActiveRecord::Base
 
   validates :title, presence: {message: "Must have a title"}
 
-  def like_for(user)
+  mount_uploader :image, ImageUploader
+
+  extend FriendlyId
+  friendly_id :title, use: [:slugged, :history]
+
+  def like_for(user) #current_id is user
     likes.find_by_user_id(user.id)
   end
 
   def favorite_for(user)
     favorites.find_by_user_id(user.id)
+  end
+
+  def category_name
+    category.name
+  end
+
+  def to_param
+    "#{id}-#{title}".parameterize
   end
 
 end

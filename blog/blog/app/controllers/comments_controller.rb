@@ -7,6 +7,7 @@ class CommentsController < ApplicationController
     @post         = Post.find params[:post_id]
     @comment.post = @post
     if @comment.save
+      CommentsMailer.delay(run_at: 5.minutes.from_now).notify_post_owner(@comment)
       redirect_to post_path(@post), notice: "Comment Created"
     else
       flash[:alert] = "Comment was NOT created"
@@ -34,6 +35,9 @@ class CommentsController < ApplicationController
     else
       flash[:alert] = "Error"
     end
+  end
+
+  def index
   end
 
 

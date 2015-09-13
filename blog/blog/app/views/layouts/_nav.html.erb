@@ -1,7 +1,11 @@
-<nav class="navbar navbar-default">
+<nav class="navbar">
   <div class="container">
     <div class="navbar-header">
-      <%= link_to "My </> BLog", homes_path, class: "navbar-brand" %>
+      <%= link_to homes_path, class: "navbar-brand" do %>
+       <p>
+         <i class="fa fa-bicycle"></i> My Blog
+      </p>
+      <% end %>
     </div>
 
     <div class="navbar-body">
@@ -12,17 +16,15 @@
         <li><%= link_to "Create Post", new_post_path %></li>
       </ul>
     </div>
-
-      <div class="navbar-right">
-
+    <div class="navbar-right">
       <ul class="nav navbar-nav">
         <% if user_signed_in? %>
           <li class="navbar-text"> <p>Hello <%= current_user.first_name %>,
-          <%= link_to "Sign-Out", sessions_path, method: :delete, data: {confirm: "are you sure you want to log out?"} %></p></li>
-        <% else %>
-        <li><%= link_to "Sign Up", new_user_path %></li>
-        <li><%= link_to "Sign In", new_session_path %></li>
-        <% end %>
+            <%= link_to "Sign-Out", sessions_path, method: :delete, data: {confirm: "are you sure you want to log out?"} %></p></li>
+            <% else %>
+          <li class="navbar-text"><%= render "/layouts/nav_sign_up" %></li>
+          <li class="navbar-text"><%= render "/layouts/nav_sign_in" %></li>
+            <% end %>
       </ul>
     </div>
   </div>

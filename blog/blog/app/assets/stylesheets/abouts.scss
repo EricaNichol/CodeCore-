@@ -1,3 +1,90 @@
 // Place all the styles related to the abouts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.about {
+  text-align: center;
+  background: #EDEFED;
+  font-family: Cicular,"Helvetica Neue", Helvetica,Arial,sans-serif;
+}
+//about div//
+.about.me {
+  color:#565A5C;
+  padding: 20px;
+}
+.about.me h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.about.me p {
+  font-size: 20;
+  font-weight: bold;
+}
+
+//summary box //
+
+//text
+.about.summary h3 {
+  font-size: 32;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 59px;
+
+}
+
+.about.summary {
+  height: 150px;
+  background-color: #E7B41A;
+  text-align: center;
+  background-image: url("http://i.imgur.com/YijMNrw.jpg")
+}
+
+
+//project box//
+
+.about.resume h3 {
+  font-size: 32;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 59px;
+}
+
+
+.about.resume {
+  height: 150px;
+  background-color: #D96459;
+  text-align: center;
+  background-image: url("http://i.imgur.com/tRwiiqB.jpg");
+  clear:both;
+}
+
+//project box
+.about.project h3 {
+  font-size: 32;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 59px;
+}
+
+.about.project {
+  height: 150px;
+  background-color: #28ABE3;
+  background-image: url("http://i.imgur.com/RyEQC4J.jpg");
+  text-align: center;
+  clear:both;
+}
+
+@media screen and (max-width: 500px) {
+  .about.me  {
+    position: static;
+  }
+}
+@media screen and (max-width: 500px) {
+  .about.summary.text  {
+    position: static;
+  }
+}
