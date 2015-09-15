@@ -6,4 +6,5 @@ class Comment < ActiveRecord::Base
   validates :body, presence: {message: "Comment is required"},
                    uniqueness: {scope: :post_id}
 
+
 end

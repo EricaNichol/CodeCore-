@@ -6,12 +6,17 @@ class CommentsController < ApplicationController
     @comment.user = current_user
     @post         = Post.find params[:post_id]
     @comment.post = @post
+    respond_to do |format|
     if @comment.save
       CommentsMailer.delay(run_at: 5.minutes.from_now).notify_post_owner(@comment)
-      redirect_to post_path(@post), notice: "Comment Created"
+      format.html { redirect_to post_path(@post), notice: "Comment Created" }
+      format.js { render :create_success }
     else
       flash[:alert] = "Comment was NOT created"
-      render '/posts/show'
+      format.html { render '/posts/show' }
+      format.js { render :create_failure}
+      # create_success links to the respective folder in the comments folder, create_success.js.erb
+    end
     end
   end
 
@@ -19,7 +24,10 @@ class CommentsController < ApplicationController
     @comment    = Comment.find params[:id]
     @post       = Post.find params[:post_id]
     @comment.destroy
-    redirect_to post_path(@post), notice: "Answer Deleted"
+    respond_to do |format|
+    format.html { redirect_to post_path(@post), notice: "Answer Deleted" }
+    format.js { render }
+    end
   end
 
   def edit
