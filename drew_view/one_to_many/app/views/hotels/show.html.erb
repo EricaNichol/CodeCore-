@@ -1,0 +1,12 @@
+<h2><%= @hotel.name %></h2>
+<p>
+  <%= @hotel.location %>, rooms: <%= @hotel.rooms %>
+</p>
+
+<h2>Guests</h2>
+<hr>
+<%= link_to "add guest", new_hotel_guest_path(@hotel.id) %>
+
+<% @hotel.guests.each do |guest| %>
+  <%= guest.name %>
+<% end %>

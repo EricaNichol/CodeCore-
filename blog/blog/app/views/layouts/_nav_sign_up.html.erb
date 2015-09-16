@@ -1,12 +1,12 @@
 <!-- Button trigger modal -->
 
-<div data-toggle="modal" data-target="#sign_out">
+<div data-toggle="modal" data-target="#sign_up">
 <%= link_to "Sign Up", "javascript:0;" %>
 </div>
 
 
 <!-- Modal -->
-<div class="modal fade" id="sign_out" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="sign_up" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -14,7 +14,7 @@
         <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
       </div>
       <div class="modal-body">
-            <%= simple_form_for (@user || User.new) do |f| %>
+            <%= simple_form_for (@user || User.new), remote: true do |f| %>
               <%= f.input :first_name %>
               <%= f.input :last_name %>
               <%= f.input :email %>

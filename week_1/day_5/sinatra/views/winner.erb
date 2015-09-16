@@ -1,0 +1,16 @@
+<h2>Pick a Winner</h2>
+
+<form action="/get_winner" method="post">
+
+<div>
+  <label for="enter_names" placeholder="Enter names">Enter Names</label>
+  <input type="text" id="enter_names" placeholder="Enter names" name="winner">
+  <!--or text area rows="8" cols="4"-->
+</div>
+
+<div>
+  <input type="submit" value="Pick Winner">
+</div>
+</form>
+
+<%= @winner  %>

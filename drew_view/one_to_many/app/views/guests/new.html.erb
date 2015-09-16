@@ -1,0 +1,14 @@
+<h2>New Guests <%= @hotel.name %> </h2>
+
+<%= form_for [@hotel, @guest] do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %><br>
+  <%= f.label :email %>
+  <%= f.text_field :email %><br>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "Click", "javascript:void(0);", class: "btn btn-primary", id: "click-me" %>
+
+<%= text_field_tag "cap-each" %> <br>
+<span id="text"></span>

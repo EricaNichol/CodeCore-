@@ -1,0 +1,30 @@
+@media (max-width:600px) {
+ .box {
+  height:50px;
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px;
+
+}
+}
+
+@media (min-width:600px){
+.box {
+  height:50px;
+  width: 33%;
+  boarder-radius: 5px;
+  display: inline-block;
+}
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}

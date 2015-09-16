@@ -1,0 +1,52 @@
+var growRocketShip = function() {
+  var width = parseInt($("#rocket").css("width"));
+  $("#rocket").css("width", width + 10 + "px");
+};
+
+setInterval(growRocketShip, 600);
+
+var growRocketShip = function() {
+  var bottom = parseInt($("#rocket").css("bottom"));
+  $("#rocket").css("bottom", bottom + 10 + "px");
+  };
+
+var launch = setInterval(growRocketShip, 15).clearInterval(300);
+
+setTimeout(function() {
+  clearInterval(launch);
+}, 5000);
+
+
+$("button-1").click(function() {
+  $( "#book" ).animate({
+    opacity: 0.25,
+    left: "+=50",
+    height: "toggle"
+  }, 5000, function() {
+    // Animation complete.
+  });
+});
+
+$(document).ready(function(){
+
+  $("#button-1").on("click", function(){
+    var size = parseInt($("#rocket").css("width"));
+    if(size < 100) {
+      $("#rocket").css("width", (size * 2) + "px");
+    } else {
+      $("#rocket").css("width", (size / 2) + "px");
+    }
+  });
+
+});
+
+or toggleClass("big");
+
+$("#button-2").on("click", function(){
+  $("#rocket").toggleClass("shifted");
+});
+
+
+#rocket.shifted {
+  left: 100px;
+}

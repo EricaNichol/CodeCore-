@@ -1,0 +1,12 @@
+
+<h1> Convert Temperature </h1>
+
+<form action="/convert_temp" method="post">
+  <label for="temperature">Temperature</label>
+  <input type="text" placeholder="Temperature in C" name="temp">
+  <input type="submit">
+</form>
+
+<% if @temperature_in_f %>
+  The Temperature in F is <%= @temperature_in_f %>
+  <% end %>

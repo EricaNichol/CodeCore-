@@ -1,0 +1,53 @@
+body {
+  background: url("images/pink_rice.png");
+}
+a {
+  color: green;
+  font-size: 19px;
+  text-decoration: underline;
+}
+img {
+  /*width: 200px;*/
+  width: 50%;
+  border: 5px solid #0f0f5f;
+  border-radius: 10px;
+  opacity: 1;
+}
+
+div {
+  text-align: center;
+  width: 100%;
+  background-color: ;
+}
+
+#bolded {
+   font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+p.important {
+  text-transform: uppercase;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: red;
+  border: 5px solid blue;
+  /*TRBL: TOP RIGHT BOTTOM LEFT*/
+}
+
+.inner-box {
+  width: 400px ;
+  height: 240px;
+  background-color: yellow;
+}
+
+/* this styles a <p> element that has a classs 'abc and an id 'xyz*/
+
+/*this styles a <p> elements nested within a dev that has a class special div.special p*/
+
+/* this style all the li elements nested with a ul element that has a class special ul.special li*/

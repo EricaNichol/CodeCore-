@@ -14,7 +14,7 @@ class CommentsController < ApplicationController
     else
       flash[:alert] = "Comment was NOT created"
       format.html { render '/posts/show' }
-      format.js { render :create_failure}
+      format.js { render :create_failure }
       # create_success links to the respective folder in the comments folder, create_success.js.erb
     end
     end

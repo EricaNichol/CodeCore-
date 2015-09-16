@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My First Sinatra Application</title>
+    <style>
+      body { background-color: <%= session[:color] %>}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</a>
+         |
+        <a href="/contact">Contact Us</a>
+         |
+         <a href="/temperature">Temperature</a>
+         |
+         <a href="/survey">Survey</a>
+         |
+         <a href="/company_names">Company Name</a>
+         |
+         <a href="/winner">Sample Winner</a>
+         |
+         The winner is: <% session[:last_winner] %>
+         |
+         You have visited home page <%= session[:visits] %> time(s)
+      </nav>
+        <a href="/change_color/red">red</a>
+        <a href="/change_color/green">Green</a>
+        <a href="/change_color/blue">blue</a>
+        <a href="/change_color/white">Normal</a>
+
+    </header>
+    <hr>
+    <%# the yield will get relaced by the contact of each template that is using this layout. FOr instance the content of index.erb will be injected in place of this "yield" %>
+
+    <%= yield %>
+
+  </body>
+</html>

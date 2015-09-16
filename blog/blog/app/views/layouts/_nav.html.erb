@@ -17,7 +17,7 @@
       </ul>
     </div>
     <div class="navbar-right">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" id="sign_in_bar">
         <% if user_signed_in? %>
           <li class="navbar-text"> <p>Hello <%= current_user.first_name %>,
             <%= link_to "Sign-Out", sessions_path, method: :delete, data: {confirm: "are you sure you want to log out?"} %></p></li>
