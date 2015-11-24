@@ -1,7 +1,0 @@
-<div class="well" id="<%= dom_id(com) %>">
-  <p><%= com.body %></p>
-  <p><b>Created:</b> <%= formatted_date(com.created_at) %>
-     <b>By: </b><%= com.user.first_name %>
-      <%= link_to "Edit", edit_post_comment_path(@post, com), class: "btn btn-warning btn-xs" %>
-      <%= link_to "Delete", post_comment_path(@post, com), class: "btn btn-danger btn-xs", method: :delete, remote: true %></p>
-</div>

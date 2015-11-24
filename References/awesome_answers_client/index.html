@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="mustache.js"></script>
+      <script src="main.js"></script>
+    <title></title>
+  </head>
+  <body>
+      <script id="question-listing" type="x-tmpl-mustache">
+      <h3>
+        <a href="javascript:void(0);" data-id={{id}} class="question-title">{{title}}</a>
+        {{created_at}} //void the default
+      </h3>
+      <hr>
+
+      </script>
+    <h2>Awesome Answers</h2>
+    <div id="questions">
+    </div>
+
+  </body>
+</html>

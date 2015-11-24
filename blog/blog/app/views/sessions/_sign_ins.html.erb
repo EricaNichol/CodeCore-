@@ -1,7 +1,0 @@
-<% if user_signed_in? %>
-  <li class="navbar-text"> <p>Hello <%= current_user.first_name %>,
-    <%= link_to "Sign-Out", sessions_path, method: :delete, data: {confirm: "are you sure you want to log out?"} %></p></li>
-<% else %>
-    <li class="navbar-text"><%= render "/layouts/nav_sign_up" %></li>
-    <li class="navbar-text"><%= render "/layouts/nav_sign_in" %></li>
-<% end %>

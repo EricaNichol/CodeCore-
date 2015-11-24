@@ -1,0 +1,79 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1226" measuredH="659" mockupW="1166" mockupH="639">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="20" w="1166" h="639" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//profiles.codecore.ca</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="321" y="183" w="-1" h="-1" measuredW="79" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>24</size>
+        <text>Sign%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::HRule" x="314" y="158" w="726" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="321" y="101" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>index%26bm%3Bindex.bmml%26bm%3Bindex.bmml%26bm%3Bindex.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22261%2C81%2C309%2C129%22%20href%3D%22index.bmml%22%20alt%3D%22index%22%20id%3D%223%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::LinkBar" x="393" y="116" w="-1" h="-1" measuredW="240" measuredH="22" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>available-students%26bm%3Bavailable-students.bmml%26bm%3Bavailable-students.bmml%26bm%3Bavailable-students.bmml%2Call-students%26bm%3Ball-students.bmml%26bm%3Ball-students.bmml%26bm%3Ball-students.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22333%2C98%2C466%2C114%22%20href%3D%22available-students.bmml%22%20alt%3D%22available-students%22%20id%3D%224%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22484%2C98%2C573%2C114%22%20href%3D%22all-students.bmml%22%20alt%3D%22all-students%22%20id%3D%224%22/%3E%0A</map>
+        <size>16</size>
+        <text>Available%20Students%2C%20All%20Students</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::LinkBar" x="951" y="101" w="-1" h="-1" measuredW="89" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>sign-in%26bm%3Bsign-in.bmml%26bm%3Bsign-in.bmml%26bm%3Bsign-in.bmml%2Csign-up%26bm%3Bsign-up.bmml%26bm%3Bsign-up.bmml%26bm%3Bsign-up.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22891%2C83%2C918%2C96%22%20href%3D%22sign-in.bmml%22%20alt%3D%22sign-in%22%20id%3D%225%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22936%2C83%2C980%2C96%22%20href%3D%22sign-up.bmml%22%20alt%3D%22sign-up%22%20id%3D%225%22/%3E%0A</map>
+        <text>login%2C%20sign%20up</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="450" y="242" w="471" h="-1" measuredW="114" measuredH="27" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>justin@case.com</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="321" y="245" w="-1" h="-1" measuredW="32" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::TextInput" x="450" y="289" w="471" h="-1" measuredW="276" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>*******************************************</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="321" y="292" w="-1" h="-1" measuredW="56" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="450" y="336" w="471" h="27" measuredW="65" measuredH="27" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>profile%26bm%3Bprofile.bmml%26bm%3Bprofile.bmml%26bm%3Bprofile.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22390%2C316%2C861%2C343%22%20href%3D%22profile.bmml%22%20alt%3D%22profile%22%20id%3D%2216%22/%3E</map>
+        <text>Sign%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="450" y="383" w="-1" h="-1" measuredW="102" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>forgot-password%26bm%3Bforgot-password.bmml%26bm%3Bforgot-password.bmml%26bm%3Bforgot-password.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22390%2C363%2C492%2C384%22%20href%3D%22forgot-password.bmml%22%20alt%3D%22forgot-password%22%20id%3D%2217%22/%3E</map>
+        <text>%5Bforgot%20password%3F%5D</text>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="740" y="383" w="-1" h="-1" measuredW="181" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>sign-up%26bm%3Bsign-up.bmml%26bm%3Bsign-up.bmml%26bm%3Bsign-up.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22680%2C363%2C861%2C384%22%20href%3D%22sign-up.bmml%22%20alt%3D%22sign-up%22%20id%3D%2218%22/%3E</map>
+        <text>%5BDont%20have%20an%20accont%3F%20Sign%20Up%5D</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

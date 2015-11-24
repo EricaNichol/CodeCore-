@@ -1,0 +1,152 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1226" measuredH="659" mockupW="1166" mockupH="639">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="60" y="20" w="1166" h="639" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//profiles.codecore.ca</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="321" y="183" w="-1" h="-1" measuredW="140" measuredH="32" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <size>24</size>
+        <text>All%20Students</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::HRule" x="314" y="158" w="726" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1"/>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::Icon" x="321" y="101" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>index%26bm%3Bindex.bmml%26bm%3Bindex.bmml%26bm%3Bindex.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22261%2C81%2C309%2C129%22%20href%3D%22index.bmml%22%20alt%3D%22index%22%20id%3D%2217%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::LinkBar" x="393" y="116" w="-1" h="-1" measuredW="240" measuredH="22" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>available-students%26bm%3Bavailable-students.bmml%26bm%3Bavailable-students.bmml%26bm%3Bavailable-students.bmml%2Call-students%26bm%3Ball-students.bmml%26bm%3Ball-students.bmml%26bm%3Ball-students.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22333%2C98%2C466%2C114%22%20href%3D%22available-students.bmml%22%20alt%3D%22available-students%22%20id%3D%2218%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22484%2C98%2C573%2C114%22%20href%3D%22all-students.bmml%22%20alt%3D%22all-students%22%20id%3D%2218%22/%3E%0A</map>
+        <size>16</size>
+        <text>Available%20Students%2C%20All%20Students</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::LinkBar" x="951" y="101" w="-1" h="-1" measuredW="89" measuredH="19" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>sign-in%26bm%3Bsign-in.bmml%26bm%3Bsign-in.bmml%26bm%3Bsign-in.bmml%2Csign-up%26bm%3Bsign-up.bmml%26bm%3Bsign-up.bmml%26bm%3Bsign-up.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22891%2C83%2C918%2C96%22%20href%3D%22sign-in.bmml%22%20alt%3D%22sign-in%22%20id%3D%2219%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22936%2C83%2C980%2C96%22%20href%3D%22sign-up.bmml%22%20alt%3D%22sign-up%22%20id%3D%2219%22/%3E%0A</map>
+        <text>login%2C%20sign%20up</text>
+      </controlProperties>
+    </control>
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::Paragraph" x="321" y="215" w="719" h="25" measuredW="200" measuredH="80" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Here%20is%20a%20list%20of%20all%20students%20registerd%20on%20this%20site%2C%20some%20of%20them%20may%20not%20be%20looking%20for%20new%20opportunities.</text>
+      </controlProperties>
+    </control>
+    <control controlID="22" controlTypeID="com.balsamiq.mockups::Paragraph" x="553" y="538" w="180" h="25" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>%3C%5Bprev%5D%20%5B1%5D%20%5B2%5D%20%5B3%5D%20..8..%20%5B15%5D%20%5B16%5D%20%5B17%5D%20%5Bnext%5D%3E</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="__group__" x="321" y="255" w="140" h="228" measuredW="140" measuredH="228" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Profile%20View%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22261%2C235%2C401%2C463%22%20href%3D%22Profile%2520View.bmml%22%20alt%3D%22Profile%20View%22%20id%3D%2235%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="140" h="156" measuredW="626" measuredH="626" zOrder="0" locked="false" isInGroup="35">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <src>./assets/_318-40557.jpg</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="194" w="140" h="34" measuredW="91" measuredH="27" zOrder="1" locked="false" isInGroup="35">
+          <controlProperties>
+            <text>View%20Profile</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="162" w="140" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="35">
+          <controlProperties>
+            <size>12</size>
+            <text>140%20character%20limit%20elevetor%20pitch%20goes%20here</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="36" controlTypeID="__group__" x="513" y="255" w="140" h="228" measuredW="140" measuredH="228" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Profile%20View%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22453%2C235%2C593%2C463%22%20href%3D%22Profile%2520View.bmml%22%20alt%3D%22Profile%20View%22%20id%3D%2236%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="140" h="156" measuredW="626" measuredH="626" zOrder="0" locked="false" isInGroup="36">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <src>./assets/_318-40557.jpg</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="194" w="140" h="34" measuredW="91" measuredH="27" zOrder="1" locked="false" isInGroup="36">
+          <controlProperties>
+            <text>View%20Profile</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="162" w="140" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="36">
+          <controlProperties>
+            <size>12</size>
+            <text>140%20character%20limit%20elevetor%20pitch%20goes%20here</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="37" controlTypeID="__group__" x="708" y="255" w="140" h="228" measuredW="140" measuredH="228" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Profile%20View%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22648%2C235%2C788%2C463%22%20href%3D%22Profile%2520View.bmml%22%20alt%3D%22Profile%20View%22%20id%3D%2237%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="140" h="156" measuredW="626" measuredH="626" zOrder="0" locked="false" isInGroup="37">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <src>./assets/_318-40557.jpg</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="194" w="140" h="34" measuredW="91" measuredH="27" zOrder="1" locked="false" isInGroup="37">
+          <controlProperties>
+            <text>View%20Profile</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="162" w="140" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="37">
+          <controlProperties>
+            <size>12</size>
+            <text>140%20character%20limit%20elevetor%20pitch%20goes%20here</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="38" controlTypeID="__group__" x="900" y="255" w="140" h="228" measuredW="140" measuredH="228" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Profile%20View%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml%26bm%3BProfile%20View.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22840%2C235%2C980%2C463%22%20href%3D%22Profile%2520View.bmml%22%20alt%3D%22Profile%20View%22%20id%3D%2238%22/%3E</map>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="140" h="156" measuredW="626" measuredH="626" zOrder="0" locked="false" isInGroup="38">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <src>./assets/_318-40557.jpg</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Button" x="0" y="194" w="140" h="34" measuredW="91" measuredH="27" zOrder="1" locked="false" isInGroup="38">
+          <controlProperties>
+            <text>View%20Profile</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="162" w="140" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="38">
+          <controlProperties>
+            <size>12</size>
+            <text>140%20character%20limit%20elevetor%20pitch%20goes%20here</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
